@@ -1,6 +1,7 @@
+import java.util.Scanner;
 public class Hipotenusa {
     public static void main(String[] args) {
-
+        Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese el cateto a: ");
         double a = sc.nextDouble();
 
